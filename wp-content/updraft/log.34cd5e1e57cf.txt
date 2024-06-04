@@ -1,0 +1,69 @@
+0000.001 (0) Opened log file at time: Tue, 04 Jun 2024 17:18:58 +0000 on http://localhost/news/newspeed
+0000.207 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.2.12 (apache2handler, Windows NT MDY-HTUNKYAWOO 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 59.3M | 62M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.564 (0) Free space on disk containing Updraft's temporary directory: 176657.1 MB
+0000.695 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.825 (0) Semaphore (fd, wp_options) being initialised
+0001.832 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0003.064 (0) Set semaphore last lock (fd) time to 2024-06-04 17:19:01
+0003.285 (0) Semaphore lock (fd) complete
+0004.142 (0) Backup run: resumption=0, nonce=34cd5e1e57cf, file_nonce=34cd5e1e57cf begun at=1717521538 (4s ago), job type=backup
+0004.231 (0) Scheduling a resumption (1) after 300 seconds (1717521843) in case this run gets aborted
+0004.480 (0) Checking if we have a zip executable available
+0004.842 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0005.020 (0) Creation of backups of directories: beginning
+0005.447 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0007.339 (0) Total entities for the zip file: 816 directories, 3851 files (0 skipped as non-modified), 49.8 MB
+0007.387 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 51032.3 KB, split: 409600 KB)
+0007.488 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.562 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.619 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.718 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.827 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.935 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0008.017 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0008.087 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0008.252 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0008.336 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0008.402 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0008.495 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0008.639 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0008.716 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0008.960 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0009.051 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0009.122 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0009.208 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0009.330 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0009.440 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0009.606 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0009.781 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0009.906 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0010.013 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0010.080 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0010.144 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0010.207 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0010.278 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0010.366 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0010.500 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0010.563 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0010.623 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0010.681 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0010.737 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0010.808 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0011.212 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0011.475 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0011.709 (0) Zip: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0013.480 (0) PHP event: code E_WARNING: rename(pclzip-665f4c903da43.tmp,D:\xampp\htdocs\news\newspeed/wp-content/updraft/backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp): Access is denied (code: 5) (line 5659, D:\xampp\htdocs\news\newspeed\wp-admin\includes\class-pclzip.php)
+0199.283 (0) PHP event: code E_WARNING: rename(pclzip-665f4d49e354a.tmp,D:\xampp\htdocs\news\newspeed/wp-content/updraft/backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp): Access is denied (code: 5) (line 5659, D:\xampp\htdocs\news\newspeed\wp-admin\includes\class-pclzip.php)
+0237.055 (0) PHP event: code E_WARNING: rename(pclzip-665f4d6a6272c.tmp,D:\xampp\htdocs\news\newspeed/wp-content/updraft/backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.tmp): Access is denied (code: 5) (line 5659, D:\xampp\htdocs\news\newspeed\wp-admin\includes\class-pclzip.php)
+0254.482 (0) Creating zip file manifest (backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip.list-temp.tmp)
+0254.777 (0) Successfully created zip file manifest (size: 326501)
+0256.424 (0) Created plugins zip (0) - 15290.8 KB in 250.7 s (61 KB/s) (sha1: 2df0b102c1599ee1d25d6366cfa4db84b762dfc5, sha256: c2db3c8e4d40bbcc8ce8bd034563288397dddab48607b4c8c5aaac44c6673379)
+0257.013 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0257.334 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d923fa55b5d9d2f7d7ec5b643ee3d780)
+0261.111 (0) Google Drive: quota usage: used=323.4 MB, total=15360 MB, available=15036.6 MB
+0261.439 (0) Google Drive: backup_2024-06-04-1718_Newspeed_34cd5e1e57cf-plugins.zip: Attempting to upload to Google Drive (into folder id: 1nr6yXcFJzNqvX1aiiZBMXhlv0W-7F30g)
+0265.201 (0) The scheduled resumption is within 45 seconds - will reschedule
+0265.484 (0) Rescheduling resumption 1: moving to 345 seconds from now (1717522149)
+0265.779 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0265.845 (0) Googledrive chunked upload: 6.7 % uploaded (1048576)
+0268.201 (0) Googledrive chunked upload: 13.4 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 62.1 / 70)
