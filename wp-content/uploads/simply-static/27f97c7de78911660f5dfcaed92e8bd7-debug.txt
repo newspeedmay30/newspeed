@@ -1,0 +1,1182 @@
+[2024-06-04 15:13:44] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-06-04 15:13:44] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-06-04 15:13:44] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-06-04 15:13:45] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-06-04 15:13:45] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-06-04 15:13:45] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-06-04 15:13:45] [class-ss-setup-task.php:33] Creating archive directory: D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024\
+[2024-06-04 15:13:45] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/news/newspeed/
+[2024-06-04 15:13:46] [class-ss-setup-task.php:137] File D:\xampp\htdocs\news\newspeed\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: D:/xampp/htdocs/news/newspeed/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-06-04 15:13:46] [class-rank-math-integration.php:38] Adding sitemap URL to queue: http://localhost/news/newspeed/sitemap_index.xml
+[2024-06-04 15:13:46] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-06-04 15:13:46] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-04 15:13:46] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-04 15:13:46] [class-ss-fetch-urls-task.php:69] Total pages: 3; Pages remaining: 3
+[2024-06-04 15:13:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/
+[2024-06-04 15:13:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 3
+[2024-06-04 15:13:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:13:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f2a723dc-Ayw4SX.tmp
+[2024-06-04 15:13:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/?simply_static_page=1
+[2024-06-04 15:13:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/?simply_static_page=1
+[2024-06-04 15:13:48] [class-ss-url-fetcher.php:103] Filesize: 89109 bytes
+[2024-06-04 15:13:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-04 15:13:48] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-06-04 15:13:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f2a723dc-Ayw4SX.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/index.html
+[2024-06-04 15:13:48] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:13:50] [class-ss-fetch-urls-task.php:158] Adding 42 URLs to the queue
+[2024-06-04 15:13:55] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:13:55] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ”#©ˆ]ënaÜêîç3—òö£
+[2024-06-04 15:13:55] [class-ss-page.php:125] Checking Content Identical:1cd32307a9f65d916e618690948d33d1980d9aa3===. Value: TRUE
+[2024-06-04 15:13:55] [class-ss-fetch-urls-task.php:72] URL: D:/xampp/htdocs/news/newspeed/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-06-04 15:13:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 3
+[2024-06-04 15:13:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:13:55] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-06-04 15:13:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/sitemap_index.xml
+[2024-06-04 15:13:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3
+[2024-06-04 15:13:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:13:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f337a188-jOAfnr.tmp
+[2024-06-04 15:13:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/sitemap_index.xml?simply_static_page=3
+[2024-06-04 15:13:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/sitemap_index.xml?simply_static_page=3
+[2024-06-04 15:13:56] [class-ss-url-fetcher.php:103] Filesize: 691 bytes
+[2024-06-04 15:13:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-06-04 15:13:56] [class-ss-url-fetcher.php:233] New filename for static page: /sitemap_index.xml
+[2024-06-04 15:13:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f337a188-jOAfnr.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/sitemap_index.xml
+[2024-06-04 15:13:56] [class-ss-rank-math-sitemap-handler.php:99] Getting content for main-sitemap.xsl
+[2024-06-04 15:13:57] [class-ss-rank-math-sitemap-handler.php:110] Created D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/main-sitemap.xsl
+[2024-06-04 15:13:57] [class-ss-rank-math-sitemap-handler.php:82] Copied D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/sitemap_index.xml to D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/sitemap.xml
+[2024-06-04 15:13:57] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:13:57] [class-ss-fetch-urls-task.php:158] Adding 4 URLs to the queue
+[2024-06-04 15:13:58] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:13:58] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ‹˘N<µótÃ\Óƒ∂d’T5mƒ
+[2024-06-04 15:13:58] [class-ss-page.php:125] Checking Content Identical:dcf94e3cb59774cc5cf0eec4b664d5541c356dc4===. Value: TRUE
+[2024-06-04 15:13:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 3 pages/files
+[2024-06-04 15:13:58] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-04 15:13:58] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-04 15:13:58] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-04 15:13:58] [class-ss-fetch-urls-task.php:69] Total pages: 48; Pages remaining: 45
+[2024-06-04 15:13:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-login.php
+[2024-06-04 15:13:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 48
+[2024-06-04 15:13:58] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/wp-login.php
+[2024-06-04 15:13:58] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:13:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/sample-page/
+[2024-06-04 15:13:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 48
+[2024-06-04 15:13:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:13:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f367a73f-B1nksP.tmp
+[2024-06-04 15:13:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/sample-page/?simply_static_page=5
+[2024-06-04 15:13:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/sample-page/?simply_static_page=5
+[2024-06-04 15:14:00] [class-ss-url-fetcher.php:103] Filesize: 91162 bytes
+[2024-06-04 15:14:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-04 15:14:00] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-06-04 15:14:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f367a73f-B1nksP.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/sample-page/index.html
+[2024-06-04 15:14:01] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:02] [class-ss-fetch-urls-task.php:158] Adding 43 URLs to the queue
+[2024-06-04 15:14:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:02] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ©ïK]=}ØA±òg8Äkÿ˜
+[2024-06-04 15:14:02] [class-ss-page.php:125] Checking Content Identical:a9954b5d3d7d18af41b11198670c38806bd8f70e===. Value: TRUE
+[2024-06-04 15:14:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/category/uncategorized/
+[2024-06-04 15:14:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 48
+[2024-06-04 15:14:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f3ab0bc4-5WGmJ3.tmp
+[2024-06-04 15:14:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/category/uncategorized/?simply_static_page=6
+[2024-06-04 15:14:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/category/uncategorized/?simply_static_page=6
+[2024-06-04 15:14:05] [class-ss-url-fetcher.php:103] Filesize: 90404 bytes
+[2024-06-04 15:14:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-04 15:14:05] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-06-04 15:14:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f3ab0bc4-5WGmJ3.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/category/uncategorized/index.html
+[2024-06-04 15:14:06] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:07] [class-ss-fetch-urls-task.php:158] Adding 44 URLs to the queue
+[2024-06-04 15:14:08] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:08] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Ls:W⁄1D:†°≥˛ßöwoe;
+[2024-06-04 15:14:08] [class-ss-page.php:125] Checking Content Identical:4c733a57da31443a7f10a0a1b3fea79a776f653b===. Value: TRUE
+[2024-06-04 15:14:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/2024/06/04/user-research-is-storytelling-a-list-apart/
+[2024-06-04 15:14:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 48
+[2024-06-04 15:14:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f40310ab-ur0m8h.tmp
+[2024-06-04 15:14:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/2024/06/04/user-research-is-storytelling-a-list-apart/?simply_static_page=7
+[2024-06-04 15:14:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/2024/06/04/user-research-is-storytelling-a-list-apart/?simply_static_page=7
+[2024-06-04 15:14:09] [class-ss-url-fetcher.php:103] Filesize: 153772 bytes
+[2024-06-04 15:14:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-04 15:14:09] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/04/user-research-is-storytelling-a-list-apart/index.html
+[2024-06-04 15:14:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f40310ab-ur0m8h.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/2024/06/04/user-research-is-storytelling-a-list-apart/index.html
+[2024-06-04 15:14:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:14] [class-ss-fetch-urls-task.php:158] Adding 49 URLs to the queue
+[2024-06-04 15:14:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:16] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ΩæÜ_ì€+ÈîëΩŸŸﬁ˘“≈
+[2024-06-04 15:14:16] [class-ss-page.php:125] Checking Content Identical:1bbdbe860f045f93db2be99491bdd9d9def9d2c5===. Value: TRUE
+[2024-06-04 15:14:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/author/newspeed/
+[2024-06-04 15:14:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 48
+[2024-06-04 15:14:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f48e35cc-kZklrI.tmp
+[2024-06-04 15:14:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/author/newspeed/?simply_static_page=8
+[2024-06-04 15:14:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/author/newspeed/?simply_static_page=8
+[2024-06-04 15:14:19] [class-ss-url-fetcher.php:103] Filesize: 94057 bytes
+[2024-06-04 15:14:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-04 15:14:19] [class-ss-url-fetcher.php:233] New filename for static page: /author/newspeed/index.html
+[2024-06-04 15:14:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f48e35cc-kZklrI.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/author/newspeed/index.html
+[2024-06-04 15:14:19] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:20] [class-ss-fetch-urls-task.php:158] Adding 45 URLs to the queue
+[2024-06-04 15:14:22] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:22] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: + ó}˚ÌÿÇp¢ –HÒÆÕ˝‡¬
+[2024-06-04 15:14:22] [class-ss-page.php:125] Checking Content Identical:012bca977dfbedd88270a2cad048f1aecdfde0c2===. Value: TRUE
+[2024-06-04 15:14:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/2024/06/04/hello-world/
+[2024-06-04 15:14:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 48
+[2024-06-04 15:14:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f4ea07c8-gIGYg1.tmp
+[2024-06-04 15:14:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/2024/06/04/hello-world/?simply_static_page=9
+[2024-06-04 15:14:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/2024/06/04/hello-world/?simply_static_page=9
+[2024-06-04 15:14:24] [class-ss-url-fetcher.php:103] Filesize: 94432 bytes
+[2024-06-04 15:14:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-04 15:14:24] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/04/hello-world/index.html
+[2024-06-04 15:14:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f4ea07c8-gIGYg1.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/2024/06/04/hello-world/index.html
+[2024-06-04 15:14:25] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:26] [class-ss-fetch-urls-task.php:158] Adding 48 URLs to the queue
+[2024-06-04 15:14:27] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:27] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Sjnf˙ø∏¸”¶D7 C'˜#hú∏
+[2024-06-04 15:14:27] [class-ss-page.php:125] Checking Content Identical:536a6e66fabfb8fcd3a64437004327f723689cb8===. Value: TRUE
+[2024-06-04 15:14:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/uploads/2024/06/Conductor-Leading-An-Orchestra.png
+[2024-06-04 15:14:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 48
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5416d0f-3arVRV.tmp
+[2024-06-04 15:14:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/uploads/2024/06/Conductor-Leading-An-Orchestra.png?simply_static_page=10
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/uploads/2024/06/Conductor-Leading-An-Orchestra.png?simply_static_page=10
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:103] Filesize: 314068 bytes
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/06/Conductor-Leading-An-Orchestra.png
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5416d0f-3arVRV.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/uploads/2024/06/Conductor-Leading-An-Orchestra.png
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: X™∏(π$"~z˚éÕ¡2Dí—
+[2024-06-04 15:14:28] [class-ss-page.php:125] Checking Content Identical:58aab81928b92422107e7a0afb8ecdc1324492d1===. Value: TRUE
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-includes/js/jquery/jquery.min.js
+[2024-06-04 15:14:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 48
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5441a48-1SvTDo.tmp
+[2024-06-04 15:14:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-includes/js/jquery/jquery.min.js?simply_static_page=11
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-includes/js/jquery/jquery.min.js?simply_static_page=11
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5441a48-1SvTDo.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-includes/js/jquery/jquery.min.js
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: yÕ5á’eØ‚êjç6√0ZW=
+[2024-06-04 15:14:28] [class-ss-page.php:125] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: TRUE
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-06-04 15:14:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 48
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f549b165-hcmYtr.tmp
+[2024-06-04 15:14:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=12
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=12
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f549b165-hcmYtr.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: :–¡P¬©ø°èú◊Á !õ7á8
+[2024-06-04 15:14:28] [class-ss-page.php:125] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: TRUE
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/navigation.min.js
+[2024-06-04 15:14:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 48
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f54dc2b7-5h5BDf.tmp
+[2024-06-04 15:14:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/navigation.min.js?simply_static_page=13
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/navigation.min.js?simply_static_page=13
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:103] Filesize: 3903 bytes
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/js/navigation.min.js
+[2024-06-04 15:14:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f54dc2b7-5h5BDf.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/js/navigation.min.js
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ˆÕ√œò∆–äDâfjøÏÍjÓ
+[2024-06-04 15:14:28] [class-ss-page.php:125] Checking Content Identical:f61ccdc3cf98c6d0148a4489666abfec1aea6aee===. Value: TRUE
+[2024-06-04 15:14:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/superfish.min.js
+[2024-06-04 15:14:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 48
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5508c6b-srwh9d.tmp
+[2024-06-04 15:14:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/superfish.min.js?simply_static_page=14
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/superfish.min.js?simply_static_page=14
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:103] Filesize: 4274 bytes
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/js/superfish.min.js
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5508c6b-srwh9d.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/js/superfish.min.js
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: 2Qﬂ7•ª˘?~/)p◊k .≠
+[2024-06-04 15:14:29] [class-ss-page.php:125] Checking Content Identical:3251df37a5f008bbf93f027e2f2970d76b002ead===. Value: TRUE
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/isotope.pkgd.min.js
+[2024-06-04 15:14:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 48
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5539673-HR47Pb.tmp
+[2024-06-04 15:14:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/isotope.pkgd.min.js?simply_static_page=15
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/isotope.pkgd.min.js?simply_static_page=15
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:103] Filesize: 35681 bytes
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/js/isotope.pkgd.min.js
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5539673-HR47Pb.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/js/isotope.pkgd.min.js
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Z6é€P—¯·T)„Ñ!U8ê7-a
+[2024-06-04 15:14:29] [class-ss-page.php:125] Checking Content Identical:5a368edb50d1f8e15429e3842155381590372d61===. Value: TRUE
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/fitvids.min.js
+[2024-06-04 15:14:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 48
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f555c536-avbShm.tmp
+[2024-06-04 15:14:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/fitvids.min.js?simply_static_page=16
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/fitvids.min.js?simply_static_page=16
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:103] Filesize: 1767 bytes
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/js/fitvids.min.js
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f555c536-avbShm.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/js/fitvids.min.js
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ¯®≤˜ÄÑO eda˚‰†™6
+[2024-06-04 15:14:29] [class-ss-page.php:125] Checking Content Identical:f8a8b2f780844f206564610605fbe4a0aa361e19===. Value: TRUE
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/sticky-kit.min.js
+[2024-06-04 15:14:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 48
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f557a7f0-GSxfwn.tmp
+[2024-06-04 15:14:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/sticky-kit.min.js?simply_static_page=17
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/sticky-kit.min.js?simply_static_page=17
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:103] Filesize: 3202 bytes
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/js/sticky-kit.min.js
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f557a7f0-GSxfwn.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/js/sticky-kit.min.js
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: –7ÆW5Me±ùE!-,kΩ«|9∫
+[2024-06-04 15:14:29] [class-ss-page.php:125] Checking Content Identical:d03714ae57354d65b19d45212d2c6bbdc77c39ba===. Value: TRUE
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/jquery-cookie.min.js
+[2024-06-04 15:14:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 48
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f55a32b5-LiPzIM.tmp
+[2024-06-04 15:14:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/jquery-cookie.min.js?simply_static_page=18
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/jquery-cookie.min.js?simply_static_page=18
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:103] Filesize: 1542 bytes
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/js/jquery-cookie.min.js
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f55a32b5-LiPzIM.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/js/jquery-cookie.min.js
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: K`h†4Zn˜}Å|Û⁄¯¢c
+[2024-06-04 15:14:29] [class-ss-page.php:125] Checking Content Identical:4b0b156068a014345a6ef77d1b817cf3daf8a263===. Value: TRUE
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/slick.min.js
+[2024-06-04 15:14:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 48
+[2024-06-04 15:14:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f55d4390-S630ix.tmp
+[2024-06-04 15:14:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/slick.min.js?simply_static_page=19
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/slick.min.js?simply_static_page=19
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:103] Filesize: 43176 bytes
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/js/slick.min.js
+[2024-06-04 15:14:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f55d4390-S630ix.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/js/slick.min.js
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Ñ£ôNt^¢¿ﬁO{<XdôˆY
+[2024-06-04 15:14:30] [class-ss-page.php:125] Checking Content Identical:84a3994e745e02a218c0de4f0b7b3c586499f659===. Value: TRUE
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/custom.min.js
+[2024-06-04 15:14:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 48
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f56316c2-oaCluV.tmp
+[2024-06-04 15:14:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/custom.min.js?simply_static_page=20
+[2024-06-04 15:14:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/js/custom.min.js?simply_static_page=20
+[2024-06-04 15:14:30] [class-ss-url-fetcher.php:103] Filesize: 6165 bytes
+[2024-06-04 15:14:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:14:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/js/custom.min.js
+[2024-06-04 15:14:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f56316c2-oaCluV.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/js/custom.min.js
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:171] SHA1 BINARY:  ﬂƒ”|3&˘ ≠z>Órc
+[2024-06-04 15:14:30] [class-ss-page.php:125] Checking Content Identical:ca0ddfc4d37c3326f919caad017a3eee72116308===. Value: TRUE
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/feed/
+[2024-06-04 15:14:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 48
+[2024-06-04 15:14:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f567d185-hmTS3q.tmp
+[2024-06-04 15:14:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/feed/?simply_static_page=21
+[2024-06-04 15:14:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/feed/?simply_static_page=21
+[2024-06-04 15:14:33] [class-ss-url-fetcher.php:103] Filesize: 136347 bytes
+[2024-06-04 15:14:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-04 15:14:33] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-06-04 15:14:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f567d185-hmTS3q.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/feed/index.xml
+[2024-06-04 15:14:33] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:33] [class-ss-fetch-urls-task.php:158] Adding 9 URLs to the queue
+[2024-06-04 15:14:33] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:33] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ÕÈe*dX‰15ÿTB9~Ñ€êä
+[2024-06-04 15:14:33] [class-ss-page.php:125] Checking Content Identical:cd02e9652a6458e43135d8541142397e84db908a===. Value: TRUE
+[2024-06-04 15:14:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/comments/feed/
+[2024-06-04 15:14:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 48
+[2024-06-04 15:14:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f59a7d1b-Po5zDB.tmp
+[2024-06-04 15:14:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/comments/feed/?simply_static_page=22
+[2024-06-04 15:14:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/comments/feed/?simply_static_page=22
+[2024-06-04 15:14:35] [class-ss-url-fetcher.php:103] Filesize: 1729 bytes
+[2024-06-04 15:14:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-04 15:14:35] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-06-04 15:14:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f59a7d1b-Po5zDB.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/comments/feed/index.xml
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:158] Adding 4 URLs to the queue
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: †ﬂÏ|m¡)ÇnˆΩ>^—ñÄ†%
+[2024-06-04 15:14:35] [class-ss-page.php:125] Checking Content Identical:a0dfec7c6df0c129826ef6bd3e105ed19680a025===. Value: TRUE
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-includes/css/dist/block-library/style.min.css
+[2024-06-04 15:14:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 48
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5bbbcbe-ywp3cq.tmp
+[2024-06-04 15:14:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-includes/css/dist/block-library/style.min.css?simply_static_page=23
+[2024-06-04 15:14:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-includes/css/dist/block-library/style.min.css?simply_static_page=23
+[2024-06-04 15:14:35] [class-ss-url-fetcher.php:103] Filesize: 113381 bytes
+[2024-06-04 15:14:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:14:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-06-04 15:14:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5bbbcbe-ywp3cq.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-includes/css/dist/block-library/style.min.css
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ±jdt]\8ö£FÉÚﬁ
+[2024-06-04 15:14:35] [class-ss-page.php:125] Checking Content Identical:b16a640874025d085c38119a1a02a3460f83f2de===. Value: TRUE
+[2024-06-04 15:14:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/global.min.css
+[2024-06-04 15:14:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 48
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5c1d1ab-T8RCUB.tmp
+[2024-06-04 15:14:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/global.min.css?simply_static_page=24
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/global.min.css?simply_static_page=24
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:103] Filesize: 103393 bytes
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/css/global.min.css
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5c1d1ab-T8RCUB.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/css/global.min.css
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ß˘‘«⁄fYìm±”…Ã·3(<
+[2024-06-04 15:14:36] [class-ss-page.php:125] Checking Content Identical:a7f9d4c7da66071659936db1d303c9cce133283c===. Value: TRUE
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/loaders.min.css
+[2024-06-04 15:14:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 48
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5c54872-NbSDp4.tmp
+[2024-06-04 15:14:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/loaders.min.css?simply_static_page=25
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/loaders.min.css?simply_static_page=25
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:103] Filesize: 2551 bytes
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/css/loaders.min.css
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5c54872-NbSDp4.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/css/loaders.min.css
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Ÿ)_°§vylçæø¯Ù£’¿:ào
+[2024-06-04 15:14:36] [class-ss-page.php:125] Checking Content Identical:d9295fa1a476796c8d1abebff8f4a3d5c03a886f===. Value: TRUE
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/fontawesome.min.css
+[2024-06-04 15:14:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 48
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5c8b8ca-yvDRIw.tmp
+[2024-06-04 15:14:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/fontawesome.min.css?simply_static_page=26
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/fontawesome.min.css?simply_static_page=26
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:103] Filesize: 30853 bytes
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/css/fontawesome.min.css
+[2024-06-04 15:14:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5c8b8ca-yvDRIw.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/css/fontawesome.min.css
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:36] [class-ss-fetch-urls-task.php:158] Adding 5 URLs to the queue
+[2024-06-04 15:14:37] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:37] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ñÑ›ÇRR÷r,€%¥™ƒß∑<W
+[2024-06-04 15:14:37] [class-ss-page.php:125] Checking Content Identical:9684dd82520a520ed6722cdb25b4aac4a7b73c57===. Value: TRUE
+[2024-06-04 15:14:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/buddypress.min.css
+[2024-06-04 15:14:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 48
+[2024-06-04 15:14:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5d2936b-EM3xgm.tmp
+[2024-06-04 15:14:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/buddypress.min.css?simply_static_page=27
+[2024-06-04 15:14:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/buddypress.min.css?simply_static_page=27
+[2024-06-04 15:14:37] [class-ss-url-fetcher.php:103] Filesize: 129118 bytes
+[2024-06-04 15:14:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:14:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/css/buddypress.min.css
+[2024-06-04 15:14:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5d2936b-EM3xgm.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/css/buddypress.min.css
+[2024-06-04 15:14:37] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:37] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ¨XR˘YIˇaÍûu”µaU‹ÌN˙
+[2024-06-04 15:14:38] [class-ss-page.php:125] Checking Content Identical:ac5852f95949ff0161ea9e75d3b56155dced4efa===. Value: TRUE
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/slick.min.css
+[2024-06-04 15:14:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 48
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5e26472-ylqGX8.tmp
+[2024-06-04 15:14:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/slick.min.css?simply_static_page=28
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/slick.min.css?simply_static_page=28
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:103] Filesize: 1245 bytes
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/css/slick.min.css
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5e26472-ylqGX8.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/css/slick.min.css
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: .ß≈ç∆‰VOüë˙µoû‹˚
+[2024-06-04 15:14:38] [class-ss-page.php:125] Checking Content Identical:2ea7c58dc6e4564f9f91130304fab56f9edcfb1c===. Value: TRUE
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/dark-mode.min.css
+[2024-06-04 15:14:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 48
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5e64a0e-MQluul.tmp
+[2024-06-04 15:14:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/dark-mode.min.css?simply_static_page=29
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/dark-mode.min.css?simply_static_page=29
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:103] Filesize: 5675 bytes
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/css/dark-mode.min.css
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5e64a0e-MQluul.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/css/dark-mode.min.css
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: àÜL√Vø&–ÍG¯$â1æ
+[2024-06-04 15:14:38] [class-ss-page.php:125] Checking Content Identical:88864cc3560cbf26061f160bd0ea47f8248931be===. Value: TRUE
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-json/
+[2024-06-04 15:14:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 48
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/wp-json/
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/xmlrpc.php
+[2024-06-04 15:14:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 48
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/xmlrpc.php
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/content.min.css
+[2024-06-04 15:14:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 48
+[2024-06-04 15:14:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5eef1bb-S3LiP2.tmp
+[2024-06-04 15:14:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/content.min.css?simply_static_page=32
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/content.min.css?simply_static_page=32
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:103] Filesize: 36010 bytes
+[2024-06-04 15:14:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/css/content.min.css
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5eef1bb-S3LiP2.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/css/content.min.css
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: πÑ◊n©©À|‘£œ±ÈT
+[2024-06-04 15:14:39] [class-ss-page.php:125] Checking Content Identical:b90e84d711116ea9a9cb7cd405a3cfb1e9541017===. Value: TRUE
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/sidebar.min.css
+[2024-06-04 15:14:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 48
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5f2e798-Bc6FCT.tmp
+[2024-06-04 15:14:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/sidebar.min.css?simply_static_page=33
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/sidebar.min.css?simply_static_page=33
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:103] Filesize: 435 bytes
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/css/sidebar.min.css
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5f2e798-Bc6FCT.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/css/sidebar.min.css
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: TﬂKÌ4ã_U<ü,Ôﬁdâ‘
+[2024-06-04 15:14:39] [class-ss-page.php:125] Checking Content Identical:54df4bed348b5f0d553c9f2cef03de026489d419===. Value: TRUE
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/widgets.min.css
+[2024-06-04 15:14:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 48
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5f5af08-f2nMUU.tmp
+[2024-06-04 15:14:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/widgets.min.css?simply_static_page=34
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/widgets.min.css?simply_static_page=34
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:103] Filesize: 3272 bytes
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/css/widgets.min.css
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5f5af08-f2nMUU.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/css/widgets.min.css
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ‹ JÈ%G;0a(≈âﬁ—X
+[2024-06-04 15:14:39] [class-ss-page.php:125] Checking Content Identical:dc204a060be91c25473b306128c5890bded10d58===. Value: TRUE
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2
+[2024-06-04 15:14:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 48
+[2024-06-04 15:14:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5f8ac55-v2Qyo1.tmp
+[2024-06-04 15:14:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2?simply_static_page=35
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2?simply_static_page=35
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:103] Filesize: 49436 bytes
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2
+[2024-06-04 15:14:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f5f8ac55-v2Qyo1.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: áïΩ}]h—˘!È∫–^xÅ%õ‘∫
+[2024-06-04 15:14:40] [class-ss-page.php:125] Checking Content Identical:8795bd7d5d6802d1f921e9bad05e7881259bd4ba===. Value: TRUE
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2
+[2024-06-04 15:14:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 48
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f606496c-LHrIMs.tmp
+[2024-06-04 15:14:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2?simply_static_page=36
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2?simply_static_page=36
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:103] Filesize: 26736 bytes
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f606496c-LHrIMs.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: >6W$m≥∏âÊçR	¨)J#µm
+[2024-06-04 15:14:40] [class-ss-page.php:125] Checking Content Identical:3e3657246db3b889e68d520904ac294a230db56d===. Value: TRUE
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2
+[2024-06-04 15:14:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 48
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f608acf3-7IvMti.tmp
+[2024-06-04 15:14:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2?simply_static_page=37
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2?simply_static_page=37
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:103] Filesize: 4524 bytes
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f608acf3-7IvMti.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: '„è;ka£U¢˜Ig{A¿E—r
+[2024-06-04 15:14:40] [class-ss-page.php:125] Checking Content Identical:2711e38f3b6b61a35518a2f749677b41c045d172===. Value: TRUE
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2
+[2024-06-04 15:14:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 48
+[2024-06-04 15:14:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f60b381c-D73mko.tmp
+[2024-06-04 15:14:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2?simply_static_page=38
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2?simply_static_page=38
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:103] Filesize: 21272 bytes
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2
+[2024-06-04 15:14:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f60b381c-D73mko.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ˆfåAå[h…∂qØß©fº,æÔ
+[2024-06-04 15:14:41] [class-ss-page.php:125] Checking Content Identical:f6668c418c5b68c9b671afa7a91166bc1d2cbeef===. Value: TRUE
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2
+[2024-06-04 15:14:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 48
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f6149bb9-HztqRc.tmp
+[2024-06-04 15:14:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2?simply_static_page=39
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2?simply_static_page=39
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:103] Filesize: 16516 bytes
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f6149bb9-HztqRc.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Bf”~∞0ïKÕÛÏYu¸´
+[2024-06-04 15:14:41] [class-ss-page.php:125] Checking Content Identical:4266d37e1db030954b04cd1cf3ec06591d75fcab===. Value: TRUE
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2
+[2024-06-04 15:14:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 48
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f61b0b03-Ra5kdg.tmp
+[2024-06-04 15:14:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2?simply_static_page=40
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2?simply_static_page=40
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:103] Filesize: 47136 bytes
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f61b0b03-Ra5kdg.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu1aB.woff2
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ≈~Ω#=iˆ~∆ÌËÇÁì,‹’m
+[2024-06-04 15:14:41] [class-ss-page.php:125] Checking Content Identical:c57e17bd233d69f67ec6ede882e7932cdc02d56d===. Value: TRUE
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2
+[2024-06-04 15:14:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 48
+[2024-06-04 15:14:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f61e467f-h9NU7w.tmp
+[2024-06-04 15:14:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2?simply_static_page=41
+[2024-06-04 15:14:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2?simply_static_page=41
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:103] Filesize: 24984 bytes
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f61e467f-h9NU7w.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.woff2
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: f„R[y°•äc˛	4Ûv›@«3
+[2024-06-04 15:14:42] [class-ss-page.php:125] Checking Content Identical:66e3525b79a1a58a63fe0934f31676dd40c7f033===. Value: TRUE
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2
+[2024-06-04 15:14:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 48
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f6254885-FtcEeE.tmp
+[2024-06-04 15:14:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2?simply_static_page=42
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2?simply_static_page=42
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:103] Filesize: 16552 bytes
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f6254885-FtcEeE.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: .î•s¨YÙ≥~Å»∏®Å$K4_
+[2024-06-04 15:14:42] [class-ss-page.php:125] Checking Content Identical:2ef09414a573ac59f4b37e81c8b8a881244b345f===. Value: TRUE
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2
+[2024-06-04 15:14:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 48
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f627a963-tOQIEl.tmp
+[2024-06-04 15:14:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2?simply_static_page=43
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2?simply_static_page=43
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:103] Filesize: 35328 bytes
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f627a963-tOQIEl.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: j*b)rÒ9»≈®6<ëÎuïˆ
+[2024-06-04 15:14:42] [class-ss-page.php:125] Checking Content Identical:6a2a620d2972f139c804c5a8363c91eb1a7595f6===. Value: TRUE
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2
+[2024-06-04 15:14:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 48
+[2024-06-04 15:14:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f62e171d-dg6lKN.tmp
+[2024-06-04 15:14:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2?simply_static_page=44
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2?simply_static_page=44
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:103] Filesize: 48236 bytes
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2
+[2024-06-04 15:14:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f62e171d-dg6lKN.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/fonts/open-sans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2
+[2024-06-04 15:14:43] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:43] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:14:43] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:43] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: *œïea‘D4¶ÿBg¯I”!]_
+[2024-06-04 15:14:43] [class-ss-page.php:125] Checking Content Identical:2acf956561d44434a6d84204670cf849d3215d5f===. Value: TRUE
+[2024-06-04 15:14:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/main-sitemap.xsl
+[2024-06-04 15:14:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 48
+[2024-06-04 15:14:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f6347525-LD59Qf.tmp
+[2024-06-04 15:14:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/main-sitemap.xsl?simply_static_page=45
+[2024-06-04 15:14:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/main-sitemap.xsl?simply_static_page=45
+[2024-06-04 15:14:44] [class-ss-url-fetcher.php:103] Filesize: 7722 bytes
+[2024-06-04 15:14:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-06-04 15:14:44] [class-ss-url-fetcher.php:233] New filename for static page: /main-sitemap.xsl
+[2024-06-04 15:14:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f6347525-LD59Qf.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/main-sitemap.xsl
+[2024-06-04 15:14:44] [class-ss-rank-math-sitemap-handler.php:82] Copied D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/sitemap_index.xml to D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/sitemap.xml
+[2024-06-04 15:14:44] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:44] [class-ss-fetch-urls-task.php:158] Adding 1 URLs to the queue
+[2024-06-04 15:14:44] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:44] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ‹≤òù√wFT≠ÉWMD’¸9£H
+[2024-06-04 15:14:44] [class-ss-page.php:125] Checking Content Identical:dcb2981b9dc37746547fad83574d44d5fc39a348===. Value: TRUE
+[2024-06-04 15:14:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/post-sitemap.xml
+[2024-06-04 15:14:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 48
+[2024-06-04 15:14:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f64a3436-RnhfWW.tmp
+[2024-06-04 15:14:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/post-sitemap.xml?simply_static_page=46
+[2024-06-04 15:14:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/post-sitemap.xml?simply_static_page=46
+[2024-06-04 15:14:46] [class-ss-url-fetcher.php:103] Filesize: 1338 bytes
+[2024-06-04 15:14:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-06-04 15:14:46] [class-ss-url-fetcher.php:233] New filename for static page: /post-sitemap.xml
+[2024-06-04 15:14:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f64a3436-RnhfWW.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/post-sitemap.xml
+[2024-06-04 15:14:46] [class-ss-rank-math-sitemap-handler.php:82] Copied D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/sitemap_index.xml to D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/sitemap.xml
+[2024-06-04 15:14:46] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:46] [class-ss-fetch-urls-task.php:158] Adding 5 URLs to the queue
+[2024-06-04 15:14:46] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:46] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: |=„e‚‹∂¥æÜR4Õ8uäÚTJ
+[2024-06-04 15:14:46] [class-ss-page.php:125] Checking Content Identical:7c3de365e2dcb616b4be865234cd38758af2544a===. Value: TRUE
+[2024-06-04 15:14:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/page-sitemap.xml
+[2024-06-04 15:14:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 48
+[2024-06-04 15:14:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f66d24c4-vvvxom.tmp
+[2024-06-04 15:14:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/page-sitemap.xml?simply_static_page=47
+[2024-06-04 15:14:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/page-sitemap.xml?simply_static_page=47
+[2024-06-04 15:14:48] [class-ss-url-fetcher.php:103] Filesize: 859 bytes
+[2024-06-04 15:14:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-06-04 15:14:48] [class-ss-url-fetcher.php:233] New filename for static page: /page-sitemap.xml
+[2024-06-04 15:14:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f66d24c4-vvvxom.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/page-sitemap.xml
+[2024-06-04 15:14:48] [class-ss-rank-math-sitemap-handler.php:82] Copied D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/sitemap_index.xml to D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/sitemap.xml
+[2024-06-04 15:14:48] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:48] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
+[2024-06-04 15:14:48] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:48] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ‹¿8@ëﬁMÏK{;!äÔEÓN
+[2024-06-04 15:14:48] [class-ss-page.php:125] Checking Content Identical:dcc038409106de4dec4b7b3b218aef4519ee4e11===. Value: TRUE
+[2024-06-04 15:14:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/category-sitemap.xml
+[2024-06-04 15:14:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 48
+[2024-06-04 15:14:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f68a2bf2-FUsLPv.tmp
+[2024-06-04 15:14:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/category-sitemap.xml?simply_static_page=48
+[2024-06-04 15:14:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/category-sitemap.xml?simply_static_page=48
+[2024-06-04 15:14:50] [class-ss-url-fetcher.php:103] Filesize: 763 bytes
+[2024-06-04 15:14:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-06-04 15:14:50] [class-ss-url-fetcher.php:233] New filename for static page: /category-sitemap.xml
+[2024-06-04 15:14:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f68a2bf2-FUsLPv.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/category-sitemap.xml
+[2024-06-04 15:14:50] [class-ss-rank-math-sitemap-handler.php:82] Copied D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/sitemap_index.xml to D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/sitemap.xml
+[2024-06-04 15:14:50] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:50] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-06-04 15:14:50] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:50] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: dﬂ‰[Q8),](Ïè'˚ 
+[2024-06-04 15:14:50] [class-ss-page.php:125] Checking Content Identical:640f0ddfe45b510c38292c5d280dec8f27fbca03===. Value: TRUE
+[2024-06-04 15:14:50] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 3 of 48 pages/files
+[2024-06-04 15:14:50] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-04 15:14:52] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-04 15:14:52] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-04 15:14:52] [class-ss-fetch-urls-task.php:69] Total pages: 75; Pages remaining: 27
+[2024-06-04 15:14:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-admin/
+[2024-06-04 15:14:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 75
+[2024-06-04 15:14:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f6cef305-yWaO7e.tmp
+[2024-06-04 15:14:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-admin/?simply_static_page=49
+[2024-06-04 15:14:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-admin/?simply_static_page=49
+[2024-06-04 15:14:54] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-06-04 15:14:54] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-06-04 15:14:54] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-06-04 15:14:54] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/news/newspeed/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fnews%2Fnewspeed%2Fwp-admin%2F%3Fsimply_static_page%3D49&reauth=1
+[2024-06-04 15:14:54] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-06-04 15:14:55] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-06-04 15:14:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-06-04 15:14:55] [class-ss-page.php:125] Checking Content Identical:e11130836b53bb8788f0e79884d5afbcac4e1060===. Value: TRUE
+[2024-06-04 15:14:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/sample-page/feed/
+[2024-06-04 15:14:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 75
+[2024-06-04 15:14:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f6f3eedf-qm52cD.tmp
+[2024-06-04 15:14:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/sample-page/feed/?simply_static_page=50
+[2024-06-04 15:14:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/sample-page/feed/?simply_static_page=50
+[2024-06-04 15:14:57] [class-ss-url-fetcher.php:103] Filesize: 798 bytes
+[2024-06-04 15:14:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-04 15:14:57] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-06-04 15:14:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f6f3eedf-qm52cD.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/sample-page/feed/index.xml
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ÙW^?É (¬…ù(¢ªN÷5kT
+[2024-06-04 15:14:57] [class-ss-page.php:125] Checking Content Identical:f41b575e3f830028c2c99d28a2bb4ed6356b0c54===. Value: TRUE
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-json/wp/v2/pages/2
+[2024-06-04 15:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 75
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/wp-json/wp/v2/pages/2
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-json/oembed/1.0/embed
+[2024-06-04 15:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 75
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/wp-json/oembed/1.0/embed
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/category/uncategorized/feed/
+[2024-06-04 15:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 75
+[2024-06-04 15:14:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f71e7396-eGQg5G.tmp
+[2024-06-04 15:14:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/category/uncategorized/feed/?simply_static_page=53
+[2024-06-04 15:14:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/category/uncategorized/feed/?simply_static_page=53
+[2024-06-04 15:14:59] [class-ss-url-fetcher.php:103] Filesize: 136392 bytes
+[2024-06-04 15:14:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-04 15:14:59] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/feed/index.xml
+[2024-06-04 15:14:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f71e7396-eGQg5G.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/category/uncategorized/feed/index.xml
+[2024-06-04 15:14:59] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:14:59] [class-ss-fetch-urls-task.php:158] Adding 9 URLs to the queue
+[2024-06-04 15:14:59] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:14:59] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: <†@è(ù>¥"Bp¯wﬂ+‰∂B
+[2024-06-04 15:14:59] [class-ss-page.php:125] Checking Content Identical:3c18a0408f289d3eb422421770f877df2be4b642===. Value: TRUE
+[2024-06-04 15:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-json/wp/v2/categories/1
+[2024-06-04 15:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 75
+[2024-06-04 15:14:59] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/wp-json/wp/v2/categories/1
+[2024-06-04 15:14:59] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/plugins/wp-automatic/js/main-front.js
+[2024-06-04 15:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 75
+[2024-06-04 15:14:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:14:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f73ebbec-gszDez.tmp
+[2024-06-04 15:14:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/plugins/wp-automatic/js/main-front.js?simply_static_page=55
+[2024-06-04 15:14:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/plugins/wp-automatic/js/main-front.js?simply_static_page=55
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:103] Filesize: 1017 bytes
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wp-automatic/js/main-front.js
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f73ebbec-gszDez.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/plugins/wp-automatic/js/main-front.js
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: î˝qï±¬e,6'˛zW˜Ds≥
+[2024-06-04 15:15:00] [class-ss-page.php:125] Checking Content Identical:1294fd7195b1c2652c3627fe7a57f71d447313b3===. Value: TRUE
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-includes/js/comment-reply.min.js
+[2024-06-04 15:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 75
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f742d2a5-yXYyIt.tmp
+[2024-06-04 15:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-includes/js/comment-reply.min.js?simply_static_page=56
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-includes/js/comment-reply.min.js?simply_static_page=56
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f742d2a5-yXYyIt.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-includes/js/comment-reply.min.js
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: €6ßj™ cøæ¿,,ñt8≈¢E
+[2024-06-04 15:15:00] [class-ss-page.php:125] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: TRUE
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/2024/06/04/user-research-is-storytelling-a-list-apart/feed/
+[2024-06-04 15:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 75
+[2024-06-04 15:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f746a73c-Tsrohg.tmp
+[2024-06-04 15:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/2024/06/04/user-research-is-storytelling-a-list-apart/feed/?simply_static_page=57
+[2024-06-04 15:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/2024/06/04/user-research-is-storytelling-a-list-apart/feed/?simply_static_page=57
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:103] Filesize: 930 bytes
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/04/user-research-is-storytelling-a-list-apart/feed/index.xml
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f746a73c-Tsrohg.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/2024/06/04/user-research-is-storytelling-a-list-apart/feed/index.xml
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Å7å¢Ÿ“7≥≥˜ﬁ»H¿%,Ÿõ
+[2024-06-04 15:15:02] [class-ss-page.php:125] Checking Content Identical:81378ca2d9d23710b3b3f7dec848c0252c1ed99b===. Value: TRUE
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/plugins/wp-automatic/css/wp-automatic.css
+[2024-06-04 15:15:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 75
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f7655684-djsMYw.tmp
+[2024-06-04 15:15:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/plugins/wp-automatic/css/wp-automatic.css?simply_static_page=58
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/plugins/wp-automatic/css/wp-automatic.css?simply_static_page=58
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:103] Filesize: 2713 bytes
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/wp-automatic/css/wp-automatic.css
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f7655684-djsMYw.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/plugins/wp-automatic/css/wp-automatic.css
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: í˙ﬁ&„Œìä‚A®@ﬁÀa∏
+[2024-06-04 15:15:02] [class-ss-page.php:125] Checking Content Identical:1492fade26e31ace938ae21a0c41a840decb61b8===. Value: TRUE
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-json/wp/v2/posts/15
+[2024-06-04 15:15:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 75
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/wp-json/wp/v2/posts/15
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/comments.min.css
+[2024-06-04 15:15:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 75
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f76c6c9c-DELG8e.tmp
+[2024-06-04 15:15:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/comments.min.css?simply_static_page=60
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/css/comments.min.css?simply_static_page=60
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:103] Filesize: 2641 bytes
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/css/comments.min.css
+[2024-06-04 15:15:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f76c6c9c-DELG8e.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/css/comments.min.css
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: €≈ﬁUhDk≠4€[‚R[µX[
+[2024-06-04 15:15:02] [class-ss-page.php:125] Checking Content Identical:dbc5de551768446bad34db5b05e2525b06b5585b===. Value: TRUE
+[2024-06-04 15:15:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/2024/06/04/css-length-units-css-tricks/
+[2024-06-04 15:15:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 75
+[2024-06-04 15:15:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f771655b-v9EqFK.tmp
+[2024-06-04 15:15:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/2024/06/04/css-length-units-css-tricks/?simply_static_page=61
+[2024-06-04 15:15:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/2024/06/04/css-length-units-css-tricks/?simply_static_page=61
+[2024-06-04 15:15:06] [class-ss-url-fetcher.php:103] Filesize: 181773 bytes
+[2024-06-04 15:15:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-04 15:15:06] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/04/css-length-units-css-tricks/index.html
+[2024-06-04 15:15:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f771655b-v9EqFK.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/2024/06/04/css-length-units-css-tricks/index.html
+[2024-06-04 15:15:06] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:08] [class-ss-fetch-urls-task.php:158] Adding 49 URLs to the queue
+[2024-06-04 15:15:08] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:08] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: aZMÌãÁ[ÁÚ¿ñæF$bÖ‘X›
+[2024-06-04 15:15:08] [class-ss-page.php:125] Checking Content Identical:615a4ded8be75be7f2c096be46246285d45819dd===. Value: TRUE
+[2024-06-04 15:15:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/author/newspeed/feed/
+[2024-06-04 15:15:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 75
+[2024-06-04 15:15:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f7cab81c-UqA0q2.tmp
+[2024-06-04 15:15:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/author/newspeed/feed/?simply_static_page=62
+[2024-06-04 15:15:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/author/newspeed/feed/?simply_static_page=62
+[2024-06-04 15:15:10] [class-ss-url-fetcher.php:103] Filesize: 136380 bytes
+[2024-06-04 15:15:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-04 15:15:10] [class-ss-url-fetcher.php:233] New filename for static page: /author/newspeed/feed/index.xml
+[2024-06-04 15:15:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f7cab81c-UqA0q2.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/author/newspeed/feed/index.xml
+[2024-06-04 15:15:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:10] [class-ss-fetch-urls-task.php:158] Adding 9 URLs to the queue
+[2024-06-04 15:15:10] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:10] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ıeb9◊ôc›º¿ÅkGßæØáG#
+[2024-06-04 15:15:10] [class-ss-page.php:125] Checking Content Identical:f5656239d79963ddbcc0816b47a7be0aaf874723===. Value: TRUE
+[2024-06-04 15:15:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-json/wp/v2/users/1
+[2024-06-04 15:15:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 75
+[2024-06-04 15:15:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/wp-json/wp/v2/users/1
+[2024-06-04 15:15:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:15:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/2024/06/04/hello-world/feed/
+[2024-06-04 15:15:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 75
+[2024-06-04 15:15:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f7eb677c-wDCwcO.tmp
+[2024-06-04 15:15:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/2024/06/04/hello-world/feed/?simply_static_page=64
+[2024-06-04 15:15:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/2024/06/04/hello-world/feed/?simply_static_page=64
+[2024-06-04 15:15:12] [class-ss-url-fetcher.php:103] Filesize: 1748 bytes
+[2024-06-04 15:15:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-04 15:15:12] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/04/hello-world/feed/index.xml
+[2024-06-04 15:15:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f7eb677c-wDCwcO.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/2024/06/04/hello-world/feed/index.xml
+[2024-06-04 15:15:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:12] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
+[2024-06-04 15:15:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:12] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ó`óg‘‰ﬁÜÊ¸8h(V	{¥9ˇ
+[2024-06-04 15:15:12] [class-ss-page.php:125] Checking Content Identical:97609767d4e4de86e6fc38682856097bb439ff0e===. Value: TRUE
+[2024-06-04 15:15:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-json/wp/v2/posts/1
+[2024-06-04 15:15:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 75
+[2024-06-04 15:15:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/wp-json/wp/v2/posts/1
+[2024-06-04 15:15:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:15:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed
+[2024-06-04 15:15:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 75
+[2024-06-04 15:15:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f812ec41-SDGT8Y.tmp
+[2024-06-04 15:15:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed?simply_static_page=66
+[2024-06-04 15:15:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed?simply_static_page=66
+[2024-06-04 15:15:13] [class-ss-url-fetcher.php:103] Filesize: 360 bytes
+[2024-06-04 15:15:13] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-06-04 15:15:13] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-06-04 15:15:13] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/news/newspeed/
+[2024-06-04 15:15:13] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-06-04 15:15:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/2024/06/04/css-length-units-css-tricks/feed/
+[2024-06-04 15:15:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 75
+[2024-06-04 15:15:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f8172c6a-9T9o6n.tmp
+[2024-06-04 15:15:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/2024/06/04/css-length-units-css-tricks/feed/?simply_static_page=67
+[2024-06-04 15:15:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/2024/06/04/css-length-units-css-tricks/feed/?simply_static_page=67
+[2024-06-04 15:15:14] [class-ss-url-fetcher.php:103] Filesize: 888 bytes
+[2024-06-04 15:15:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-04 15:15:14] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/04/css-length-units-css-tricks/feed/index.xml
+[2024-06-04 15:15:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f8172c6a-9T9o6n.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/2024/06/04/css-length-units-css-tricks/feed/index.xml
+[2024-06-04 15:15:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:14] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-06-04 15:15:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:14] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: óËMØÅµ∑Vß˙qû„¬lÍtÌD
+[2024-06-04 15:15:14] [class-ss-page.php:125] Checking Content Identical:97e84daf81b5b756a7fa719e1be3c26cea74ed44===. Value: TRUE
+[2024-06-04 15:15:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.eot
+[2024-06-04 15:15:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 75
+[2024-06-04 15:15:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f82e1b58-IznKLw.tmp
+[2024-06-04 15:15:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.eot?simply_static_page=68
+[2024-06-04 15:15:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.eot?simply_static_page=68
+[2024-06-04 15:15:14] [class-ss-url-fetcher.php:103] Filesize: 165742 bytes
+[2024-06-04 15:15:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-06-04 15:15:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.eot
+[2024-06-04 15:15:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f82e1b58-IznKLw.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.eot
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ŸÄ¬Œá=ƒ:Ù`‘’r‘A0DôÙ 
+[2024-06-04 15:15:15] [class-ss-page.php:125] Checking Content Identical:d980c2ce873dc43af460d4d572d441304499f400===. Value: TRUE
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.woff2
+[2024-06-04 15:15:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 75
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f832ee28-iyv32a.tmp
+[2024-06-04 15:15:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.woff2?simply_static_page=69
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.woff2?simply_static_page=69
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:103] Filesize: 77160 bytes
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.woff2
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f832ee28-iyv32a.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.woff2
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ÷Ùå∫}o∂Ú˝k©ìß[ù¡Ïø
+[2024-06-04 15:15:15] [class-ss-page.php:125] Checking Content Identical:d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c===. Value: TRUE
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.woff
+[2024-06-04 15:15:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 75
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f834f6e0-4TJMjX.tmp
+[2024-06-04 15:15:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.woff?simply_static_page=70
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.woff?simply_static_page=70
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:103] Filesize: 98024 bytes
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.woff
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f834f6e0-4TJMjX.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.woff
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: (∑Ç$>v€ÇN¿'T©su'
+[2024-06-04 15:15:15] [class-ss-page.php:125] Checking Content Identical:28b782240b3e76db824e12c02754a9731a167527===. Value: TRUE
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.ttf
+[2024-06-04 15:15:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 75
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f83b6629-yGQWvN.tmp
+[2024-06-04 15:15:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.ttf?simply_static_page=71
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.ttf?simply_static_page=71
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:103] Filesize: 165548 bytes
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.ttf
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f83b6629-yGQWvN.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.ttf
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ±Í∂Zò<zsºyóƒy÷iC˜∆À
+[2024-06-04 15:15:15] [class-ss-page.php:125] Checking Content Identical:13b1eab65a983c7a73bc7997c479d66943f7c6cb===. Value: TRUE
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.svg
+[2024-06-04 15:15:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 75
+[2024-06-04 15:15:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f83e480a-tuakwg.tmp
+[2024-06-04 15:15:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.svg?simply_static_page=72
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.svg?simply_static_page=72
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:103] Filesize: 444379 bytes
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.svg
+[2024-06-04 15:15:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f83e480a-tuakwg.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/fonts/fontawesome-webfont.svg
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ò®™\˜÷,.ˇ_ÌËÿD∏tÔÌ
+[2024-06-04 15:15:16] [class-ss-page.php:125] Checking Content Identical:98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed===. Value: TRUE
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/images/arrow-down.svg
+[2024-06-04 15:15:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 75
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f848d305-77zqkQ.tmp
+[2024-06-04 15:15:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/images/arrow-down.svg?simply_static_page=73
+[2024-06-04 15:15:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/images/arrow-down.svg?simply_static_page=73
+[2024-06-04 15:15:16] [class-ss-url-fetcher.php:103] Filesize: 200 bytes
+[2024-06-04 15:15:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-06-04 15:15:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/images/arrow-down.svg
+[2024-06-04 15:15:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f848d305-77zqkQ.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/images/arrow-down.svg
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: &…˘}H“QÁ€:éND0∏F≥°G
+[2024-06-04 15:15:16] [class-ss-page.php:125] Checking Content Identical:26c9f97d48d251e7db3a8e4e440230b846b3a147===. Value: TRUE
+[2024-06-04 15:15:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/images/search.svg
+[2024-06-04 15:15:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 75
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f85076b7-FMkxPm.tmp
+[2024-06-04 15:15:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/images/search.svg?simply_static_page=74
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/images/search.svg?simply_static_page=74
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:103] Filesize: 343 bytes
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/images/search.svg
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f85076b7-FMkxPm.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/images/search.svg
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: †MHs4bÇΩ≤x~ÈdÏΩﬂî
+[2024-06-04 15:15:17] [class-ss-page.php:125] Checking Content Identical:a04d487317346282bdb2787ee91f64ecbddf0494===. Value: TRUE
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/images/mejs-controls.svg
+[2024-06-04 15:15:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 75
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f854cb92-woHb9C.tmp
+[2024-06-04 15:15:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/themes/buddyx/assets/images/mejs-controls.svg?simply_static_page=75
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/themes/buddyx/assets/images/mejs-controls.svg?simply_static_page=75
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:103] Filesize: 4023 bytes
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/buddyx/assets/images/mejs-controls.svg
+[2024-06-04 15:15:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f854cb92-woHb9C.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/themes/buddyx/assets/images/mejs-controls.svg
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:17] [class-ss-fetch-urls-task.php:171] SHA1 BINARY:  ÆµÿßÇºeZÃm[Õx˘†œ
+[2024-06-04 15:15:17] [class-ss-page.php:125] Checking Content Identical:20aeb5d8a782bc655a15cc6d5b0acd78f9a015cf===. Value: TRUE
+[2024-06-04 15:15:17] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 48 of 75 pages/files
+[2024-06-04 15:15:17] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-04 15:15:19] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-04 15:15:19] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:69] Total pages: 78; Pages remaining: 3
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fnews%2Fnewspeed%2Fwp-admin%2F%3Fsimply_static_page%3D49&reauth=1
+[2024-06-04 15:15:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 78
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fnews%2Fnewspeed%2Fwp-admin%2F%3Fsimply_static_page%3D49&reauth=1
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-content/uploads/2024/06/375815
+[2024-06-04 15:15:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 78
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-04 15:15:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f875662b-9g4juD.tmp
+[2024-06-04 15:15:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/wp-content/uploads/2024/06/375815?simply_static_page=77
+[2024-06-04 15:15:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/wp-content/uploads/2024/06/375815?simply_static_page=77
+[2024-06-04 15:15:19] [class-ss-url-fetcher.php:103] Filesize: 141406 bytes
+[2024-06-04 15:15:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2024-06-04 15:15:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/06/375815\index.html
+[2024-06-04 15:15:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f875662b-9g4juD.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024/wp-content/uploads/2024/06/375815\index.html
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ˚ê,s4LL◊à)8UgãÅ∫=d}ã
+[2024-06-04 15:15:19] [class-ss-page.php:125] Checking Content Identical:fb902c73344c4cd788293855678b81ba3d647d8b===. Value: TRUE
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/news/newspeed/wp-json/wp/v2/posts/18
+[2024-06-04 15:15:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 78
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/news/newspeed/wp-json/wp/v2/posts/18
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-04 15:15:19] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 75 of 78 pages/files
+[2024-06-04 15:15:19] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-04 15:15:19] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-04 15:15:19] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-04 15:15:19] [class-ss-fetch-urls-task.php:69] Total pages: 78; Pages remaining: 0
+[2024-06-04 15:15:19] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 78 of 78 pages/files
+[2024-06-04 15:15:19] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-06-04 15:15:19] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-06-04 15:15:19] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-06-04 15:15:19] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-06-04 15:15:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f87cc69d-MouiAf.tmp
+[2024-06-04 15:15:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/news/newspeed/1717514120?simply_static_page=0
+[2024-06-04 15:15:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/news/newspeed/1717514120?simply_static_page=0
+[2024-06-04 15:15:21] [class-ss-url-fetcher.php:103] Filesize: 81404 bytes
+[2024-06-04 15:15:21] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-06-04 15:15:21] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-06-04 15:15:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\tunkyaw.oo\AppData\Local\Temp/665f2f87cc69d-MouiAf.tmp to D:\xampp\htdocs\news\newspeed/wp-content/uploads\simply-static\temp-files/simply-static-1-1717514024\404/index.html
+[2024-06-04 15:15:21] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-06-04 15:15:22] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-06-04 15:15:22] [class-ss-page.php:125] Checking Content Identical:0a763ad5be092552159423e1454615b49eb2e801===. Value: TRUE
+[2024-06-04 15:15:22] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-06-04 15:15:22] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-06-04 15:15:22] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-06-04 15:15:22] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-06-04 15:15:22] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 50 of 65 files
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/sample-page
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/category/uncategorized
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/2024/06/04/user-research-is-storytelling-a-list-apart
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/author/newspeed
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/2024/06/04/hello-world
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/uploads/2024/06
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-includes/js/jquery
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-includes/js/jquery
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/js
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/js
+[2024-06-04 15:15:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/js
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/js
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/js
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/js
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/js
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/js
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/feed
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/comments/feed
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-includes/css/dist/block-library
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/css
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/css
+[2024-06-04 15:15:24] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/css
+[2024-06-04 15:15:25] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/css
+[2024-06-04 15:15:25] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/css
+[2024-06-04 15:15:25] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/css
+[2024-06-04 15:15:25] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/css
+[2024-06-04 15:15:25] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/css
+[2024-06-04 15:15:25] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/css
+[2024-06-04 15:15:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/fonts/open-sans
+[2024-06-04 15:15:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/fonts/open-sans
+[2024-06-04 15:15:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/fonts/open-sans
+[2024-06-04 15:15:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/fonts/open-sans
+[2024-06-04 15:15:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/fonts/open-sans
+[2024-06-04 15:15:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/fonts/open-sans
+[2024-06-04 15:15:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/fonts/open-sans
+[2024-06-04 15:15:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/fonts/open-sans
+[2024-06-04 15:15:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/fonts/open-sans
+[2024-06-04 15:15:27] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/fonts/open-sans
+[2024-06-04 15:15:27] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/
+[2024-06-04 15:15:27] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/
+[2024-06-04 15:15:27] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/
+[2024-06-04 15:15:27] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/
+[2024-06-04 15:15:27] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-admin
+[2024-06-04 15:15:27] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/sample-page/feed
+[2024-06-04 15:15:27] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/category/uncategorized/feed
+[2024-06-04 15:15:27] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/plugins/wp-automatic/js
+[2024-06-04 15:15:27] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-includes/js
+[2024-06-04 15:15:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/2024/06/04/user-research-is-storytelling-a-list-apart/feed
+[2024-06-04 15:15:28] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:65. Processed Pages: 50
+[2024-06-04 15:15:28] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 50 of 65 files
+[2024-06-04 15:15:28] [trait-can-process-pages.php:103] Total pages: 65; Pages remaining: 15
+[2024-06-04 15:15:28] [class-ss-archive-creation-job.php:181] We're not done with the transfer_files_locally task yet
+[2024-06-04 15:15:28] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-06-04 15:15:28] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-06-04 15:15:28] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 15 of 65 files
+[2024-06-04 15:15:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/plugins/wp-automatic/css
+[2024-06-04 15:15:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/css
+[2024-06-04 15:15:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/2024/06/04/css-length-units-css-tricks
+[2024-06-04 15:15:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/author/newspeed/feed
+[2024-06-04 15:15:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/2024/06/04/hello-world/feed
+[2024-06-04 15:15:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/2024/06/04/css-length-units-css-tricks/feed
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/fonts
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/fonts
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/fonts
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/fonts
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/fonts
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/images
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/images
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/themes/buddyx/assets/images
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/xampp/htdocs/news/newspeed/wp-content/uploads/2024/06
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:115] Cannot copy D:/xampp/htdocs/news/newspeed/wp-content/uploads/simply-static/temp-files/simply-static-1-1717514024/wp-content/uploads/2024/06/375815/index.html to D:/xampp/htdocs/news/newspeed/wp-content/uploads/2024/06/375815/index.html
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:65. Processed Pages: 65
+[2024-06-04 15:15:29] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 65 of 65 files
+[2024-06-04 15:15:29] [trait-can-process-pages.php:103] Total pages: 65; Pages remaining: 0
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at D:\xampp\htdocs\news\newspeed\404\index.html
+[2024-06-04 15:15:29] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-06-04 15:15:29] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://https://newspeedmay30.github.io/newspeed/" target="_blank">https://https://newspeedmay30.github.io/newspeed/</a>
+[2024-06-04 15:15:30] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-06-04 15:15:30] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-06-04 15:15:30] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-06-04 15:15:30] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-06-04 15:15:30] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-06-04 15:15:30] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-06-04 15:15:31] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-06-04 15:15:31] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:47
